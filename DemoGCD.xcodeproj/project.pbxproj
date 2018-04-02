@@ -214,7 +214,7 @@
 				TargetAttributes = {
 					651430122022BE6200B68979 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					6514302A2022BE6200B68979 = {
 						CreatedOnToolsVersion = 9.2;
@@ -448,12 +448,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5XMYF9CJVB;
 				INFOPLIST_FILE = DemoGCD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = shangxiaxue.DemoGCD;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shangxiaxue.customer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "e662e75b-9901-42b9-a7c4-dd972b592524";
+				PROVISIONING_PROFILE_SPECIFIER = coustomerDevelop;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -461,12 +466,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5XMYF9CJVB;
 				INFOPLIST_FILE = DemoGCD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = shangxiaxue.DemoGCD;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shangxiaxue.customer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "e662e75b-9901-42b9-a7c4-dd972b592524";
+				PROVISIONING_PROFILE_SPECIFIER = coustomerDevelop;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
